@@ -50,7 +50,7 @@ import auth_google from "./controllers/authGoogle.js";
 import auth_google_callback from "./controllers/authGoogleCallback.js";
 import get_console_data from "./controllers/getConsoleData.js";
 
-///////////  all routes for admin         //////////////////////////////
+///////////  all routes for admin       /////////////////////
 
 ////login and signup
 router.post("/user/login", user_login);
